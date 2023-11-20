@@ -23,7 +23,7 @@
 
         <p class="row">
             <label for="email" class="form-label">E-mail : </label>
-            <input type="email" name="email" id="email" class="form-control" required>
+            <input type="email" name="email" id="email" class="form-control" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
         </p>
 
         <p class="row">
